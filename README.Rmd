@@ -22,7 +22,7 @@ Handwriter is designed to assist forensic examiners by analyzing handwritten doc
 
 ## Installation
 
-Handwriter requires R, RStudio IDE, and JAGS.
+Handwriter requires devtools, R, RStudio IDE, and JAGS.
 
 - Install R from [CRAN](https://cran.r-project.org/)
 - Install RStudio IDE from [POSIT](https://posit.co/download/rstudio-desktop/). Click Download RStudio.

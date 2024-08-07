@@ -2,22 +2,23 @@
 % Please edit documentation in R/app.R
 \name{handwriterApp}
 \alias{handwriterApp}
-\title{Handwriter Application}
+\title{Handwriter App}
 \usage{
-handwriterApp(...)
+handwriterApp
 }
 \arguments{
-\item{...}{Other arguments passed on to \code{onStart}, \code{options},
-\code{uiPattern}, or \code{enableBookmarking} of \code{shiny::shinyApp}}
+\item{...}{Optional arguments passed to shiny::shinyApp}
+}
+\value{
+A Shiny app
 }
 \description{
-Lauch a Shiny App for the \code{handwriter} R package.
+An R Shiny app for the \code{handwriter} R package.
 }
 \examples{
-## Only run this example in interactive R sessions
-if (interactive()) {
-  options(device.ask.default = FALSE)
-  handwriterApp()
+\dontrun{
+handwriterApp()
 }
 
 }
+\keyword{Shiny}

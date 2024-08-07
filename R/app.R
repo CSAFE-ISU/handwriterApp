@@ -16,24 +16,22 @@
 # this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-#' Handwriter Application
-#' 
-#' Lauch a Shiny App for the `handwriter` R package.
+#' Handwriter App
 #'
-#' @param ... Other arguments passed on to `onStart`, `options`,
-#'   `uiPattern`, or `enableBookmarking` of `shiny::shinyApp`
+#' An R Shiny app for the \code{handwriter} R package.
 #'
-#' @return NULL
-#'
+#' @name handwriterApp
+#' @rdname handwriterApp
+#' @keywords Shiny
 #' @export
-#'
+#' @usage handwriterApp
+#' @param ... Optional arguments passed to shiny::shinyApp
 #' @examples
-#' ## Only run this example in interactive R sessions
-#' if (interactive()) {
-#'   options(device.ask.default = FALSE)
-#'   handwriterApp()
+#' \dontrun{
+#' handwriterApp()
 #' }
 #' 
+#' @return A Shiny app
 handwriterApp <- function(...){
   # increase maximum allowed file size
   options(shiny.maxRequestSize = 30*1024^2)
