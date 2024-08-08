@@ -16,7 +16,7 @@ handwriter provides an automated way to evaluate handwriting samples.
 
 ## Installation
 
-Handwriter requires R, RStudio IDE, and JAGS.
+Handwriter requires devtools, R, RStudio IDE, and JAGS.
 
 -   Install R from [CRAN](https://cran.r-project.org/)
 -   Install RStudio IDE from

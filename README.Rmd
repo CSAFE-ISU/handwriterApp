@@ -1,5 +1,7 @@
 ---
-output: github_document
+output:
+  html_document:
+    css: www/styles.css
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
