@@ -1,5 +1,15 @@
 ---
-output: github_document
+output:
+  pdf_document: default
+  html_document:
+       df_print: paged
+header-includes:
+  - \usepackage[defaultfam,tabular,lining]{montserrat}
+  - \usepackage{colortbl}
+  - \usepackage{titling}
+  - \pretitle{\begin{center}
+    \includegraphics[width=2in,height=2in]{logo.jpg}\LARGE\\}
+  - \posttitle{\end{center}} 
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -13,7 +23,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# handwriterApp
+# Quick Start
 
 <!-- badges: start -->
 <!-- badges: end -->

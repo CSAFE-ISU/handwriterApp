@@ -1,8 +1,18 @@
 
 
+\usepackage[defaultfam,tabular,lining]{montserrat}
+
+\usepackage{colortbl}
+
+\usepackage{titling}
+
+\pretitle{\begin{center} \includegraphics[width=2in,height=2in]{logo.jpg}\LARGE\\}
+
+\posttitle{\end{center}}
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# handwriterApp
+# Quick Start
 
 <!-- badges: start -->
 <!-- badges: end -->
