@@ -1,12 +1,15 @@
-^LICENSE\.md$
+^\.github$
 ^.*\.Rproj$
 ^\.Rproj\.user$
-^data-raw$
 
-^scratch.R$
 ^cran-comments\.md$
-^README\.Rmd$
+^LICENSE\.md$
 ^README\.pdf$
-^\.github$
-^docs$
+^README\.Rmd$
+^scratch.R$
+
 ^altdoc$
+^data-raw$
+^docs$
+^manuals$
+
