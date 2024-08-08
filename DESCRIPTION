@@ -26,7 +26,9 @@ Imports:
     stringr,
     tidyr
 Suggests: 
+    knitr,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 URL: https://github.com/CSAFE-ISU/handwriterApp
 BugReports: https://github.com/CSAFE-ISU/handwriterApp/issues
+VignetteBuilder: knitr

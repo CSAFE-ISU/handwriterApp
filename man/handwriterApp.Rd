@@ -4,7 +4,7 @@
 \alias{handwriterApp}
 \title{Handwriter App}
 \usage{
-handwriterApp
+handwriterApp(...)
 }
 \arguments{
 \item{...}{Optional arguments passed to shiny::shinyApp}

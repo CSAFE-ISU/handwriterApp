@@ -42,7 +42,7 @@ demoKnownServer <- function(id, global) {
         create_dir(file.path(global$main_dir, "data"))
         create_dir(file.path(global$main_dir, "data", "model_docs"))
         create_dir(file.path(global$main_dir, "data", "questioned_docs"))
-        saveRDS(templateK8, file.path(global$main_dir, "data", "template.rds"))
+        saveRDS(templateKeight, file.path(global$main_dir, "data", "template.rds"))
         
         # known writing samples in tests folder
         known_paths <- list.files(testthat::test_path("fixtures", "template", "data", "model_docs"), full.names = TRUE)

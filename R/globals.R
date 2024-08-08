@@ -15,7 +15,7 @@
 # You should have received a copy of the GNU General Public License along with
 # this program.  If not, see <https://www.gnu.org/licenses/>.
 
-# templateK8 and templateK40 is are variables loaded from the data folder so we
+# templateKeigth and templateKforty is are variables loaded from the data folder so we
 # can't fix the note "no visible binding for global variable" by adding
 # template <- NULL at the beginning of the function that uses template. Instead,
 # we declare them here to fix the note.

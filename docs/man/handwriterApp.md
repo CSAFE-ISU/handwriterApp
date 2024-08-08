@@ -2,7 +2,7 @@
 
 # Handwriter App
 
-[**Source code**](https://github.com/CSAFE-ISU/handwriterApp/tree/main/R/app.R#L35)
+[**Source code**](https://github.com/CSAFE-ISU/handwriterApp/tree/main/R/app.R#L34)
 
 ## Description
 
@@ -10,7 +10,7 @@ An R Shiny app for the <code>handwriter</code> R package.
 
 ## Usage
 
-<pre><code class='language-R'>handwriterApp
+<pre><code class='language-R'>handwriterApp(...)
 </code></pre>
 
 ## Arguments

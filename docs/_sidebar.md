@@ -1,4 +1,6 @@
 * [Home](/)
+* Articles: 
+  - [Quick Start](vignettes/quick-start.md)
 * Reference: 
   - [handwriterApp](man/handwriterApp)
   - [templateKeight](man/templateKeight)

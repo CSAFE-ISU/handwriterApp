@@ -1,0 +1,60 @@
+---
+title: Quick Start
+output: 
+  pdf_document: default
+  html_document:
+       df_print: paged
+vignette: >
+  %\VignetteIndexEntry{quick-start}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+header-includes:
+  - \usepackage[defaultfam,tabular,lining]{montserrat}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+
+```
+
+```{css, echo=FALSE}
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+/*  color: #003A70;*/
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #003A70;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #545859;
+}
+
+html, body {
+  height: 100%;
+}
+```

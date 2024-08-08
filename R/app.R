@@ -24,7 +24,6 @@
 #' @rdname handwriterApp
 #' @keywords Shiny
 #' @export
-#' @usage handwriterApp
 #' @param ... Optional arguments passed to shiny::shinyApp
 #' @examples
 #' \dontrun{
