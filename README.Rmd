@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Quick Start
+## Quick Start
 
 <!-- badges: start -->
 <!-- badges: end -->

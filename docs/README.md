@@ -1,10 +1,8 @@
 
 
-\usepackage[defaultfam,tabular,lining]{montserrat}
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Quick Start
+## Quick Start
 
 <!-- badges: start -->
 <!-- badges: end -->
