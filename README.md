@@ -1,5 +1,4 @@
 
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # handwriterApp
@@ -18,13 +17,13 @@ handwriter provides an automated way to evaluate handwriting samples.
 
 Handwriter requires devtools, R, RStudio IDE, and JAGS.
 
--   Install R from [CRAN](https://cran.r-project.org/)
--   Install RStudio IDE from
-    [POSIT](https://posit.co/download/rstudio-desktop/). Click Download
-    RStudio.
--   Install JAGS from
-    [SourceForge](https://sourceforge.net/projects/mcmc-jags/files).
-    Click Download.
+- Install R from [CRAN](https://cran.r-project.org/)
+- Install RStudio IDE from
+  [POSIT](https://posit.co/download/rstudio-desktop/). Click Download
+  RStudio.
+- Install JAGS from
+  [SourceForge](https://sourceforge.net/projects/mcmc-jags/files). Click
+  Download.
 
 Install the handwriterApp R package. Open RStudio and navigate to the
 console window and type
