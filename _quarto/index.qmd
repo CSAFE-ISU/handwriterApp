@@ -1,6 +1,8 @@
 ---
 title: "README"
-format: html
+format: 
+  html:
+    css: styles.css
 editor: visual
 ---
 

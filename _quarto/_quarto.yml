@@ -27,3 +27,7 @@ website:
         file: LICENSE.md
       - text: Citation
         file: CITATION.md
+format:
+  html:
+    css: styles.css
+    toc: true
