@@ -213,8 +213,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#quarto" id="toc-quarto" class="nav-link active" data-scroll-target="#quarto">Quarto</a></li>
-  <li><a href="#running-code" id="toc-running-code" class="nav-link" data-scroll-target="#running-code">Running Code</a></li>
+  <li><a href="#view-a-demo" id="toc-view-a-demo" class="nav-link active" data-scroll-target="#view-a-demo">View a Demo</a></li>
+  <li><a href="#simulate-casework-with-example-documents" id="toc-simulate-casework-with-example-documents" class="nav-link" data-scroll-target="#simulate-casework-with-example-documents">Simulate Casework with Example Documents</a>
+  <ul class="collapse">
+  <li><a href="#installation" id="toc-installation" class="nav-link" data-scroll-target="#installation">INSTALLATION</a></li>
+  <li><a href="#launch-the-app" id="toc-launch-the-app" class="nav-link" data-scroll-target="#launch-the-app">LAUNCH THE APP</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -240,28 +244,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="quarto" class="level2">
-<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
-<p>Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <a href="https://quarto.org" class="uri">https://quarto.org</a>.</p>
+<p>Handwriter is designed to assist forensic examiners by analyzing handwritten documents against a <em>closed set</em> of potential writers. It determines the probability that each writer wrote the document. Whether you are a forensic document examiner, legal professional, academic, or simply curious about how statistics are applied to handwriting, handwriter provides an automated way to evaluate handwriting samples.</p>
+<section id="view-a-demo" class="level2">
+<h2 class="anchored" data-anchor-id="view-a-demo">View a Demo</h2>
+<p>View a demo of handwriter on handwritten documents from the CSAFE Handwriting Database. Go to <a href="https://csafe.shinyapps.io/handwriterAppDemo/">demo</a>.</p>
 </section>
-<section id="running-code" class="level2">
-<h2 class="anchored" data-anchor-id="running-code">Running Code</h2>
-<p>When you click the <strong>Render</strong> button a document will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
+<section id="simulate-casework-with-example-documents" class="level2">
+<h2 class="anchored" data-anchor-id="simulate-casework-with-example-documents">Simulate Casework with Example Documents</h2>
+<section id="installation" class="level3">
+<h3 class="anchored" data-anchor-id="installation">INSTALLATION</h3>
+<p>Handwriter requires R, RStudio IDE, and JAGS.</p>
+<ul>
+<li>Install R and RStudio from <a href="https://posit.co/download/rstudio-desktop/">POSIT</a></li>
+<li>Install JAGS from <a href="https://sourceforge.net/projects/mcmc-jags/files/">SourceForge</a></li>
+</ul>
+</section>
+<section id="launch-the-app" class="level3">
+<h3 class="anchored" data-anchor-id="launch-the-app">LAUNCH THE APP</h3>
+<p>Open RStudio, navigate to the console window, and type:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"devtools"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"CSAFE-ISU/handwriterApp"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(handwriterApp)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">handwriterApp</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</div>
-<p>You can add options to executable code like this</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 4</code></pre>
-</div>
-</div>
-<p>The <code>echo: false</code> option disables the printing of code (only output is displayed).</p>
+<p>In the pop-up window, click <strong>Open in Browser</strong>. If you use the app in the pop-up window instead of in a browser, some links will not work.</p>
+<p>Click <strong>Simulate Casework</strong> and follow the instructions in the app.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

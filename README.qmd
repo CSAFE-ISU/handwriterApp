@@ -3,26 +3,35 @@ title: "README"
 format: 
   html:
     css: styles.css
-editor: visual
 ---
 
-## Quarto
+Handwriter is designed to assist forensic examiners by analyzing handwritten documents against a *closed set* of potential writers. It determines the probability that each writer wrote the document. Whether you are a forensic document examiner, legal professional, academic, or simply curious about how statistics are applied to handwriting, handwriter provides an automated way to evaluate handwriting samples.
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+## View a Demo
 
-## Running Code
+View a demo of handwriter on handwritten documents from the CSAFE Handwriting Database. Go to [demo](https://csafe.shinyapps.io/handwriterAppDemo/).
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+## Simulate Casework with Example Documents
 
-```{r}
-1 + 1
+### INSTALLATION
+
+Handwriter requires R, RStudio IDE, and JAGS.
+
+-   Install R and RStudio from [POSIT](https://posit.co/download/rstudio-desktop/)
+-   Install JAGS from [SourceForge](https://sourceforge.net/projects/mcmc-jags/files/)
+
+### LAUNCH THE APP
+
+Open RStudio, navigate to the console window, and type:
+
+```{r, eval = FALSE}
+install.packages("devtools")
+devtools::install_github("CSAFE-ISU/handwriterApp")
+library(handwriterApp)
+handwriterApp()
 ```
 
-You can add options to executable code like this
+In the pop-up window, click **Open in Browser**. If you use the app in the pop-up window
+instead of in a browser, some links will not work.
 
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
+Click **Simulate Casework** and follow the instructions in the app.

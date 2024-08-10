@@ -130,27 +130,27 @@
     "href": "index.html",
     "title": "README",
     "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.",
+    "text": "Handwriter is designed to assist forensic examiners by analyzing handwritten documents against a closed set of potential writers. It determines the probability that each writer wrote the document. Whether you are a forensic document examiner, legal professional, academic, or simply curious about how statistics are applied to handwriting, handwriter provides an automated way to evaluate handwriting samples.",
     "crumbs": [
       "Home"
     ]
   },
   {
-    "objectID": "index.html#quarto",
-    "href": "index.html#quarto",
+    "objectID": "index.html#view-a-demo",
+    "href": "index.html#view-a-demo",
     "title": "README",
-    "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.",
+    "section": "View a Demo",
+    "text": "View a Demo\nView a demo of handwriter on handwritten documents from the CSAFE Handwriting Database. Go to demo.",
     "crumbs": [
       "Home"
     ]
   },
   {
-    "objectID": "index.html#running-code",
-    "href": "index.html#running-code",
+    "objectID": "index.html#simulate-casework-with-example-documents",
+    "href": "index.html#simulate-casework-with-example-documents",
     "title": "README",
-    "section": "Running Code",
-    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed).",
+    "section": "Simulate Casework with Example Documents",
+    "text": "Simulate Casework with Example Documents\n\nINSTALLATION\nHandwriter requires R, RStudio IDE, and JAGS.\n\nInstall R and RStudio from POSIT\nInstall JAGS from SourceForge\n\n\n\nLAUNCH THE APP\nOpen RStudio, navigate to the console window, and type:\n\ninstall.packages(\"devtools\")\ndevtools::install_github(\"CSAFE-ISU/handwriterApp\")\nlibrary(handwriterApp)\nhandwriterApp()\n\nIn the pop-up window, click Open in Browser. If you use the app in the pop-up window instead of in a browser, some links will not work.\nClick Simulate Casework and follow the instructions in the app.",
     "crumbs": [
       "Home"
     ]
