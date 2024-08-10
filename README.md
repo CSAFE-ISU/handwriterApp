@@ -8,13 +8,13 @@ you are a forensic document examiner, legal professional, academic, or
 simply curious about how statistics are applied to handwriting,
 handwriter provides an automated way to evaluate handwriting samples.
 
-## View a Demo
+## VIEW A DEMO
 
 View a demo of handwriter on handwritten documents from the CSAFE
 Handwriting Database. Go to
 [demo](https://csafe.shinyapps.io/handwriterAppDemo/).
 
-## Simulate Casework with Example Documents
+## SIMULATE CASEWORK WITH EXAMPLE DOCUMENTS
 
 ### INSTALLATION
 

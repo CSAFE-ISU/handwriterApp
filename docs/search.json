@@ -139,8 +139,8 @@
     "objectID": "index.html#view-a-demo",
     "href": "index.html#view-a-demo",
     "title": "README",
-    "section": "View a Demo",
-    "text": "View a Demo\nView a demo of handwriter on handwritten documents from the CSAFE Handwriting Database. Go to demo.",
+    "section": "VIEW A DEMO",
+    "text": "VIEW A DEMO\nView a demo of handwriter on handwritten documents from the CSAFE Handwriting Database. Go to demo.",
     "crumbs": [
       "Home"
     ]
@@ -149,8 +149,8 @@
     "objectID": "index.html#simulate-casework-with-example-documents",
     "href": "index.html#simulate-casework-with-example-documents",
     "title": "README",
-    "section": "Simulate Casework with Example Documents",
-    "text": "Simulate Casework with Example Documents\n\nINSTALLATION\nHandwriter requires R, RStudio IDE, and JAGS.\n\nInstall R and RStudio from POSIT\nInstall JAGS from SourceForge\n\n\n\nLAUNCH THE APP\nOpen RStudio, navigate to the console window, and type:\n\ninstall.packages(\"devtools\")\ndevtools::install_github(\"CSAFE-ISU/handwriterApp\")\nlibrary(handwriterApp)\nhandwriterApp()\n\nIn the pop-up window, click Open in Browser. If you use the app in the pop-up window instead of in a browser, some links will not work.\nClick Simulate Casework and follow the instructions in the app.",
+    "section": "SIMULATE CASEWORK WITH EXAMPLE DOCUMENTS",
+    "text": "SIMULATE CASEWORK WITH EXAMPLE DOCUMENTS\n\nINSTALLATION\nHandwriter requires R, RStudio IDE, and JAGS.\n\nInstall R and RStudio from POSIT\nInstall JAGS from SourceForge\n\n\n\nLAUNCH THE APP\nOpen RStudio, navigate to the console window, and type:\n\ninstall.packages(\"devtools\")\ndevtools::install_github(\"CSAFE-ISU/handwriterApp\")\nlibrary(handwriterApp)\nhandwriterApp()\n\nIn the pop-up window, click Open in Browser. If you use the app in the pop-up window instead of in a browser, some links will not work.\nClick Simulate Casework and follow the instructions in the app.",
     "crumbs": [
       "Home"
     ]

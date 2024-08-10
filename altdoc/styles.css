@@ -8,19 +8,19 @@ h4 {
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+  font-weight: bold;
   color: #545859;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-weight: bold;
   color: #003A70;
 }
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 36px;
   color: #003A70;
 }
