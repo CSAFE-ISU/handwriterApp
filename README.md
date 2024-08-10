@@ -1,49 +1,26 @@
+# README
 
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+## Quarto
 
-## Quick Start
+Quarto enables you to weave together content and executable code into a
+finished document. To learn more about Quarto see <https://quarto.org>.
 
-<!-- badges: start -->
-<!-- badges: end -->
+## Running Code
 
-Handwriter is designed to assist forensic examiners by analyzing
-handwritten documents against a closed set of potential writers. It
-determines the probability that each writer wrote the document. Whether
-you are a forensic document examiner, legal professional, academic, or
-simply curious about how statistics are applied to handwriting,
-handwriter provides an automated way to evaluate handwriting samples.
-
-## Installation
-
-Handwriter requires devtools, R, RStudio IDE, and JAGS.
-
--   Install R from [CRAN](https://cran.r-project.org/)
--   Install RStudio IDE from
-    [POSIT](https://posit.co/download/rstudio-desktop/). Click Download
-    RStudio.
--   Install JAGS from
-    [SourceForge](https://sourceforge.net/projects/mcmc-jags/files).
-    Click Download.
-
-Install the handwriterApp R package. Open RStudio and navigate to the
-console window and type
+When you click the **Render** button a document will be generated that
+includes both content and the output of embedded code. You can embed
+code like this:
 
 ``` r
-install.packages("handwriterApp")
+1 + 1
 ```
 
-## Lauch the App
+    [1] 2
 
-In the RStudio console, type
+You can add options to executable code like this
 
-``` r
-library(handwriterApp)
-handwriterApp()
-```
+    [1] 4
 
-In the pop-up window, click Open in Browser. If you use the app in the
-pop-up window instead of in a browser, some of the links will not work.
-
-Follow the instructions in the app to view a demo or simulate casework
-with real handwriting samples.
+The `echo: false` option disables the printing of code (only output is
+displayed).
