@@ -15,30 +15,31 @@
 # You should have received a copy of the GNU General Public License along with
 # this program.  If not, see <https://www.gnu.org/licenses/>.
 
-#' Cluster Template with Eight Clusters
+#' Cluster Template with Forty Clusters
 #'
-#' See \code{magrittr::\link[magrittr:pipe]{\%>\%}} for details.
-#'
-#' @name templateKeight
-#' @rdname templateKeight
+#' A list containing a single cluster template created by
+#' \code{handwriter::make_clustering_template}. The cluster template was created
+#' by sorting graphs from 120 training documents into 40 clusters with a K-means
+#' algorithm. The training documents are from the CSAFE Handwriting Database: 50
+#' Wizard of Oz prompts, 50 London Letter prompts, and 20 common phrase prompts.
+#' Each prompt is from a distinct writer.
+#' 
+#' @name templateK40
+#' @rdname templateK40
 #' @keywords clusters
-#' @format A list containing a single cluster template created by
-#'   \code{handwriter::make_clustering_template}. The cluster template was created by sorting
-#'   a random sample of 1000 graphs from 10 training documents into 10 clusters
-#'   with a K-means algorithm. The cluster template is a named list with 16
-#'   items:
+#' @format The cluster template is a named list with 16 items:
 #' \describe{
-#' \item{centers_seed}{An integer for the random number generator.}
+#' \item{centers_seed}{The integer use for the random number generator to select starting cluster centers.}
 #' \item{cluster}{A vector of cluster assignments
 #'   for each graph used to create the cluster template.}
 #' \item{centers}{The final cluster centers produced by the K-Means algorithm.}
-#' \item{K}{The number of clusters to build (10) with the K-means algorithm.}
-#' \item{n}{The number of training graphs to use (1000) in the K-means
+#' \item{K}{The number of clusters.}
+#' \item{n}{The number of training graphs to used in the K-means
 #'   algorithm.}
 #' \item{docnames}{A vector that lists the training document from which each graph originated.}
-#' \item{writers}{A vector that lists the writer of each graph.}
-#' \item{iters}{The maximum number of iterations for the K-means
-#'   algorithm (3).}
+#' \item{writers}{A vector that lists the writer ID of each graph.}
+#' \item{iters}{The maximum number of iterations of the K-means
+#'   algorithm.}
 #' \item{changes}{A vector of the number of graphs that
 #'   changed clusters on each iteration of the K-means algorithm.}
 #' \item{outlierCutoff}{A vector of the outlier cutoff values calculated on
@@ -46,22 +47,12 @@
 #' \item{stop_reason}{The reason the
 #'   K-means algorithm terminated.}
 #' \item{wcd}{A matrix of the within cluster
-#'   distances on each iteration of the K-means algorithm. More specifically,
+#'   distances on the last iteration of the K-means algorithm. More specifically,
 #'   the distance between each graph and the center of the cluster to which it
 #'   was assigned  on each iteration.}
 #' \item{wcss}{A vector of the
 #'   within-cluster sum of squares on each iteration of the K-means algorithm.}}
-#' 
-#' @md
-"templateKeight"
-
-#' Cluster Template with Forty Clusters
 #'
-#' See \code{magrittr::\link[magrittr:pipe]{\%>\%}} for details.
-#'
-#' @name templateKforty
-#' @rdname templateKforty
 #' @keywords cluster
 #' @md
-#' @usage templateKforty
-"templateKforty"
+"templateK40"

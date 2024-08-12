@@ -10,7 +10,7 @@ See <code>magrittr::%&gt;%</code> for details.
 
 ### Usage
 
-<pre><code class='language-R'>templateKforty
+<pre><code class='language-R'>templateK40
 </code></pre>
 
 

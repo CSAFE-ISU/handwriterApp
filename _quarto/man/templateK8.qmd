@@ -4,13 +4,13 @@
 
 ### Description
 
-See <code>magrittr::%&gt;%</code> for details.
+Cluster Template with Eight Clusters
 
 
 
 ### Usage
 
-<pre><code class='language-R'>templateKeight
+<pre><code class='language-R'>templateK8
 </code></pre>
 
 

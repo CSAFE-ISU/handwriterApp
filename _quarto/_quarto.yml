@@ -17,10 +17,10 @@ website:
         contents:
           - text: handwriterApp
             file: man/handwriterApp.qmd
-          - text: templateKeight
-            file: man/templateKeight.qmd
-          - text: templateKforty
-            file: man/templateKforty.qmd
+          - text: templateK40
+            file: man/templateK40.qmd
+          - text: templateK8
+            file: man/templateK8.qmd
       - text: News
         file: NEWS.md
       - text: License

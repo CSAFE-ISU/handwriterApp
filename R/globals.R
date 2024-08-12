@@ -15,9 +15,8 @@
 # You should have received a copy of the GNU General Public License along with
 # this program.  If not, see <https://www.gnu.org/licenses/>.
 
-# templateKeigth and templateKforty is are variables loaded from the data folder so we
+# templateK40 is a variable loaded from the data folder so we
 # can't fix the note "no visible binding for global variable" by adding
 # template <- NULL at the beginning of the function that uses template. Instead,
-# we declare them here to fix the note.
-utils::globalVariables(c("templateKeight"))
-utils::globalVariables(c("templateKforty"))
+# we declare it here to fix the note.
+utils::globalVariables(c("templateK40"))
