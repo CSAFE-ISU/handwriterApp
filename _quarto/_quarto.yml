@@ -19,8 +19,6 @@ website:
             file: man/handwriterApp.qmd
           - text: templateK40
             file: man/templateK40.qmd
-          - text: templateK8
-            file: man/templateK8.qmd
       - text: News
         file: NEWS.md
       - text: License

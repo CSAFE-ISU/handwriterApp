@@ -143,12 +143,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">templateK40</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../man/templateK8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">templateK8</span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item">
@@ -198,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="unnumbered anchored" data-anchor-id="cluster-template-with-forty-clusters">Cluster Template with Forty Clusters</h2>
 <section id="description" class="level3">
 <h3 class="anchored" data-anchor-id="description">Description</h3>
-<p>See <code>magrittr::%&gt;%</code> for details.</p>
+<p>A list containing a single cluster template created by <code>handwriter::make_clustering_template</code>. The cluster template was created by sorting graphs from 120 training documents into 40 clusters with a K-means algorithm. The training documents are from the CSAFE Handwriting Database: 50 Wizard of Oz prompts, 50 London Letter prompts, and 20 common phrase prompts. Each prompt is from a distinct writer.</p>
 </section>
 <section id="usage" class="level3">
 <h3 class="anchored" data-anchor-id="usage">Usage</h3>
@@ -207,7 +201,87 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="format" class="level3">
 <h3 class="anchored" data-anchor-id="format">Format</h3>
-<p>An object of class <code>list</code> of length 13.</p>
+<p>The cluster template is a named list with 16 items:</p>
+<dl>
+<dt>
+centers_seed
+</dt>
+<dd>
+The integer use for the random number generator to select starting cluster centers.
+</dd>
+<dt>
+cluster
+</dt>
+<dd>
+A vector of cluster assignments for each graph used to create the cluster template.
+</dd>
+<dt>
+centers
+</dt>
+<dd>
+The final cluster centers produced by the K-Means algorithm.
+</dd>
+<dt>
+K
+</dt>
+<dd>
+The number of clusters.
+</dd>
+<dt>
+n
+</dt>
+<dd>
+The number of training graphs to used in the K-means algorithm.
+</dd>
+<dt>
+docnames
+</dt>
+<dd>
+A vector that lists the training document from which each graph originated.
+</dd>
+<dt>
+writers
+</dt>
+<dd>
+A vector that lists the writer ID of each graph.
+</dd>
+<dt>
+iters
+</dt>
+<dd>
+The maximum number of iterations of the K-means algorithm.
+</dd>
+<dt>
+changes
+</dt>
+<dd>
+A vector of the number of graphs that changed clusters on each iteration of the K-means algorithm.
+</dd>
+<dt>
+outlierCutoff
+</dt>
+<dd>
+A vector of the outlier cutoff values calculated on each iteration of the K-means algorithm.
+</dd>
+<dt>
+stop_reason
+</dt>
+<dd>
+The reason the K-means algorithm terminated.
+</dd>
+<dt>
+wcd
+</dt>
+<dd>
+A matrix of the within cluster distances on the last iteration of the K-means algorithm. More specifically, the distance between each graph and the center of the cluster to which it was assigned on each iteration.
+</dd>
+<dt>
+wcss
+</dt>
+<dd>
+A vector of the within-cluster sum of squares on each iteration of the K-means algorithm.
+</dd>
+</dl>
 
 
 </section>
