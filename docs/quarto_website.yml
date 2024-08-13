@@ -31,5 +31,4 @@ website:
 
 format:
   html:
-    css: styles.css
-    toc: true
+    theme: csafe.scss

@@ -1,4 +1,4 @@
-# README
+# handwriter
 
 
 Handwriter is designed to assist forensic examiners by analyzing
@@ -7,6 +7,8 @@ determines the probability that each writer wrote the document. Whether
 you are a forensic document examiner, legal professional, academic, or
 simply curious about how statistics are applied to handwriting,
 handwriter provides an automated way to evaluate handwriting samples.
+
+# Quick Start
 
 ## VIEW A DEMO
 
