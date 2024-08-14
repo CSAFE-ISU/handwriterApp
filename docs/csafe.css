@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+/*  color: #003A70;*/
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #003A70;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #545859;
+}
+
+html, body {
+  height: 100%;
+}
+
+address {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-align:left;
+}
+
+#indent {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.well {
+  background-color: #003A70;
+  color: white;
+  border: 0px;
+  margin-left: 14px;
+}
+
+.help-block {
+    color: white;
+}
+
+#app-container {
+  display: block;
+  overflow: auto;
+}
+
+#global-navbar {
+  background-color: #FFFFFF;
+  overflow: hidden;
+  height: 120px;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.tab-content {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+}
+
+.navbar-default {
+  background-color: #003A70;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+/* Targeting inactive tabs */
+.navbar-nav > li:not(.active) > a {
+    color: white; /* Sets the text color to white for inactive tabs */
+}
+
+/* Changing text color on hover for inactive tabs */
+.navbar-nav > li:not(.active) > a:hover {
+    color: white; /* Sets the hover text color to light grey */
+}
+
+#global-footer {
+  background-color: #003A70;
+  overflow: hidden;
+  height: 60px;  
+}
+
+#global-navbar a, #global-navbar img, #global-footer a #global-footer p {
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 80px;
+  padding-left: 10px;
+}
+
+#global-navbar img {
+  height: 70px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
+
+#global-footer img {
+  height: 60px;
+  margin-top: 00px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+#global-footer a, #global-footer p {
+  color: white;
+  margin-top: 20px;
+}
+
+#global-navbar a {
+  color: white;
+}
+
+#global-navbar a:hover, #global-footer a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#global-navbar a.right-float, #global-footer a.right-float, #global-navbar p.right-float, #global-footer p.right-float {
+  float: right;
+  margin-right: 20px;
+}
+
+#header-image img {
+  max-width: 100%;
+  width: 100%;
+  max-height: 80px;
+  height: 80px;
+  vertical-align: middle;
+  margin-top: 20px;
+}
+
+#main-content {
+  flex: 1;
+}
+
+#global-footer {
+  margin-top: auto;  
+}
+
+#customPopover {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1050;
+    display: none;
+}
+
+.btn-default {
+  color: #003A70;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.btn-info {
+  color: white;
+  background-color: #003A70;
+  border: 2px solid #ddd;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.modal-content {
+    background-color: rgba(0, 58, 111, 0.8); /* Blue with 80% transparency */
+    color: white;
+}
+
+.modal-dialog {
+    position: fixed; /* Or 'absolute' depending on your layout */
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -10%);
+    overflow-y: initial
+}
+
+.modal-body{
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+.responsive-text {
+    font-size: 2vw;
+}
+@media (max-width: 600px) {
+    .responsive-text {
+        font-size: 3vw; /* Larger on small screens */
+    }
+}
+
+.rounded-box {
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.center-container {
+    text-align: center;
+}

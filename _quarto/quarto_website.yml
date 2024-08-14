@@ -18,4 +18,6 @@ website:
 
 format:
   html:
-    theme: csafe.scss
+    css: csafe.css
+    toc: true
+    toc-location: left
