@@ -1,6 +1,6 @@
 /*-- scss:defaults --*/
 
-$theme: "cosmo" !default;
+$theme: "csafe" !default;
 
 //
 // Color system
@@ -8,26 +8,17 @@ $theme: "cosmo" !default;
 
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
-$gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
-$gray-600: #868e96 !default;
-$gray-700: #495057 !default;
-$gray-800: #373a3c !default;
-$gray-900: #212529 !default;
-$black:    #000 !default;
+$gray-800: #888B8D !default;
+$black:    #545859 !default;
 
-$blue:    #2780e3 !default;
-$indigo:  #6610f2 !default;
-$purple:  #613d7c !default;
-$pink:    #e83e8c !default;
-$red:     #ff0039 !default;
-$orange:  #f0ad4e !default;
-$yellow:  #ff7518 !default;
-$green:   #3fb618 !default;
-$teal:    #20c997 !default;
-$cyan:    #9954bb !default;
+$blue:    #003A70 !default;
+$purple:  #981E97 !default;
+$pink:    #DA1984 !default;
+$red:     #A6192E !default;
+$orange:  #F68D2E !default;
+$yellow:  #E3E935 !default;
+$green:   #00843D !default;
+$cyan:    #6BA4B8 !default;
 
 $primary:       $blue !default;
 $secondary:     $gray-800 !default;
@@ -51,8 +42,18 @@ $body-color:    $gray-800 !default;
 // Fonts
 
 // stylelint-disable-next-line value-keyword-case
-$font-family-sans-serif:    "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$headings-font-weight:      400 !default;
+
+$font-family-sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+
+$font-weight-lighter:         lighter !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-medium:          500 !default;
+$font-weight-semibold:        600 !default;
+$font-weight-bold:            700 !default;
+$font-weight-bolder:          bolder !default;
+
 
 // Navbar
 
@@ -66,8 +67,6 @@ $alert-border-width:            0 !default;
 // Progress bars
 
 $progress-height:               .5rem !default;
-
-
 
 /*-- scss:rules --*/
 
@@ -104,11 +103,20 @@ body {
   }
 }
 
-/*-- scss:defaults --*/
-$h2-font-size:          1.6rem !default;
-$headings-font-weight:  500 !default;
+h1 {
+  font-weight: $font-weight-bold;
+  font-size: $font-size-base * 2.5;
+  color: $purple;
+}
 
-/*-- scss:rules --*/
-h1, h2, h3, h4, h5, h6 {
-  text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
+h2 {
+  font-weight: $font-weight-light;
+  font-size: $font-size-base * 2;
+  color: $purple;
+}
+
+h3 {
+  font-weight: $font-weight-medium;
+  font-size: $font-size-base * 1.25;
+  color: $purple;
 }

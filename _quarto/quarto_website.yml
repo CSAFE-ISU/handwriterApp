@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "$ALTDOC_PACKAGE_NAME"
+  title: "handwriter"
   navbar:
     search: true
     right:

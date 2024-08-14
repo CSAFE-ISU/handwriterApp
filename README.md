@@ -10,13 +10,13 @@ handwriter provides an automated way to evaluate handwriting samples.
 
 # Quick Start
 
-## VIEW A DEMO
+## View a Demo
 
 View a demo of handwriter on handwritten documents from the CSAFE
 Handwriting Database. Go to
 [demo](https://csafe.shinyapps.io/handwriterAppDemo/).
 
-## SIMULATE CASEWORK WITH EXAMPLE DOCUMENTS
+## Simulate Casework with Example Documents
 
 ### INSTALLATION
 

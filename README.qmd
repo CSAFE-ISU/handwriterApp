@@ -3,17 +3,18 @@ title: "handwriter"
 format: 
   html:
     theme: csafe.scss
+    toc: true
 ---
 
 Handwriter is designed to assist forensic examiners by analyzing handwritten documents against a *closed set* of potential writers. It determines the probability that each writer wrote the document. Whether you are a forensic document examiner, legal professional, academic, or simply curious about how statistics are applied to handwriting, handwriter provides an automated way to evaluate handwriting samples.
 
 # Quick Start
 
-## VIEW A DEMO
+## View a Demo
 
 View a demo of handwriter on handwritten documents from the CSAFE Handwriting Database. Go to [demo](https://csafe.shinyapps.io/handwriterAppDemo/).
 
-## SIMULATE CASEWORK WITH EXAMPLE DOCUMENTS
+## Simulate Casework with Example Documents
 
 ### INSTALLATION
 
