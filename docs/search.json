@@ -4,7 +4,7 @@
     "href": "CITATION.html",
     "title": "Citation",
     "section": "",
-    "text": "Citation\nTo cite package ‘handwriterApp’ in publications use:\n\n  Iowa State University of Science and Technology on behalf of its Center for\n  Statistics and Applications in Forensic Evidence, Reinders S (2024).\n  _handwriterApp: Shiny App for Handwriting Analysis in R_. R package version\n  1.0.0, commit bf9918f390d1ca23532e201f88e624564d1be8ec,\n  &lt;https://github.com/CSAFE-ISU/handwriterApp&gt;.\n\nA BibTeX entry for LaTeX users is\n\n  @Manual{,\n    title = {handwriterApp: Shiny App for Handwriting Analysis in R},\n    author = {{Iowa State University of Science and Technology on behalf of its Center for Statistics and Applications in Forensic Evidence} and Stephanie Reinders},\n    year = {2024},\n    note = {R package version 1.0.0, commit bf9918f390d1ca23532e201f88e624564d1be8ec},\n    url = {https://github.com/CSAFE-ISU/handwriterApp},\n  }"
+    "text": "Citation\nTo cite package ‘handwriterApp’ in publications use:\n\n  Iowa State University of Science and Technology on behalf of its Center for\n  Statistics and Applications in Forensic Evidence, Reinders S (????).\n  _handwriterApp: Shiny App for Handwriting Analysis in R_. R package version\n  1.0.0, &lt;https://github.com/CSAFE-ISU/handwriterApp&gt;.\n\nA BibTeX entry for LaTeX users is\n\n  @Manual{,\n    title = {handwriterApp: Shiny App for Handwriting Analysis in R},\n    author = {{Iowa State University of Science and Technology on behalf of its Center for Statistics and Applications in Forensic Evidence} and Stephanie Reinders},\n    note = {R package version 1.0.0},\n    url = {https://github.com/CSAFE-ISU/handwriterApp},\n  }"
   },
   {
     "objectID": "NEWS.html",
@@ -16,28 +16,28 @@
   {
     "objectID": "man/templateK40.html",
     "href": "man/templateK40.html",
-    "title": "handwriter",
+    "title": "",
     "section": "",
     "text": "A list containing a single cluster template created by handwriter::make_clustering_template. The cluster template was created by sorting graphs from 120 training documents into 40 clusters with a K-means algorithm. The training documents are from the CSAFE Handwriting Database: 50 Wizard of Oz prompts, 50 London Letter prompts, and 20 common phrase prompts. Each prompt is from a distinct writer.\n\n\n\ntemplateK40\n\n\n\n\nThe cluster template is a named list with 16 items:\n\n\ncenters_seed\n\n\nThe integer use for the random number generator to select starting cluster centers.\n\n\ncluster\n\n\nA vector of cluster assignments for each graph used to create the cluster template.\n\n\ncenters\n\n\nThe final cluster centers produced by the K-Means algorithm.\n\n\nK\n\n\nThe number of clusters.\n\n\nn\n\n\nThe number of training graphs to used in the K-means algorithm.\n\n\ndocnames\n\n\nA vector that lists the training document from which each graph originated.\n\n\nwriters\n\n\nA vector that lists the writer ID of each graph.\n\n\niters\n\n\nThe maximum number of iterations of the K-means algorithm.\n\n\nchanges\n\n\nA vector of the number of graphs that changed clusters on each iteration of the K-means algorithm.\n\n\noutlierCutoff\n\n\nA vector of the outlier cutoff values calculated on each iteration of the K-means algorithm.\n\n\nstop_reason\n\n\nThe reason the K-means algorithm terminated.\n\n\nwcd\n\n\nA matrix of the within cluster distances on the last iteration of the K-means algorithm. More specifically, the distance between each graph and the center of the cluster to which it was assigned on each iteration.\n\n\nwcss\n\n\nA vector of the within-cluster sum of squares on each iteration of the K-means algorithm."
   },
   {
     "objectID": "man/templateK40.html#cluster-template-with-forty-clusters",
     "href": "man/templateK40.html#cluster-template-with-forty-clusters",
-    "title": "handwriter",
+    "title": "",
     "section": "",
     "text": "A list containing a single cluster template created by handwriter::make_clustering_template. The cluster template was created by sorting graphs from 120 training documents into 40 clusters with a K-means algorithm. The training documents are from the CSAFE Handwriting Database: 50 Wizard of Oz prompts, 50 London Letter prompts, and 20 common phrase prompts. Each prompt is from a distinct writer.\n\n\n\ntemplateK40\n\n\n\n\nThe cluster template is a named list with 16 items:\n\n\ncenters_seed\n\n\nThe integer use for the random number generator to select starting cluster centers.\n\n\ncluster\n\n\nA vector of cluster assignments for each graph used to create the cluster template.\n\n\ncenters\n\n\nThe final cluster centers produced by the K-Means algorithm.\n\n\nK\n\n\nThe number of clusters.\n\n\nn\n\n\nThe number of training graphs to used in the K-means algorithm.\n\n\ndocnames\n\n\nA vector that lists the training document from which each graph originated.\n\n\nwriters\n\n\nA vector that lists the writer ID of each graph.\n\n\niters\n\n\nThe maximum number of iterations of the K-means algorithm.\n\n\nchanges\n\n\nA vector of the number of graphs that changed clusters on each iteration of the K-means algorithm.\n\n\noutlierCutoff\n\n\nA vector of the outlier cutoff values calculated on each iteration of the K-means algorithm.\n\n\nstop_reason\n\n\nThe reason the K-means algorithm terminated.\n\n\nwcd\n\n\nA matrix of the within cluster distances on the last iteration of the K-means algorithm. More specifically, the distance between each graph and the center of the cluster to which it was assigned on each iteration.\n\n\nwcss\n\n\nA vector of the within-cluster sum of squares on each iteration of the K-means algorithm."
   },
   {
     "objectID": "man/handwriterApp.html",
     "href": "man/handwriterApp.html",
-    "title": "handwriter",
+    "title": "",
     "section": "",
     "text": "An R Shiny app for the handwriter R package.\n\n\n\nhandwriterApp(...)\n\n\n\n\n\n\n\n…\n\n\nOptional arguments passed to shiny::shinyApp\n\n\n\n\n\n\nA Shiny app\n\n\n\n\nlibrary(handwriterApp)\n\nhandwriterApp()"
   },
   {
     "objectID": "man/handwriterApp.html#handwriter-app",
     "href": "man/handwriterApp.html#handwriter-app",
-    "title": "handwriter",
+    "title": "",
     "section": "",
     "text": "An R Shiny app for the handwriter R package.\n\n\n\nhandwriterApp(...)\n\n\n\n\n\n\n\n…\n\n\nOptional arguments passed to shiny::shinyApp\n\n\n\n\n\n\nA Shiny app\n\n\n\n\nlibrary(handwriterApp)\n\nhandwriterApp()"
   },

@@ -2,9 +2,15 @@ project:
   type: website
 
 website:
-  title: "handwriter"
   navbar:
+    background: primary
+    logo: "CSAFE_Tools_handwriter.png"
     search: true
+    left:
+      - text: Home
+        file: index.qmd
+      - text: License
+        file: $ALTDOC_LICENSE
     right:
       - icon: github
         href: $ALTDOC_PACKAGE_URL_GITHUB
