@@ -8,23 +8,6 @@ website:
       - icon: github
         href: https://github.com/CSAFE-ISU/handwriterApp
         aria-label: handwriterApp GitHub
-  sidebar:
-    collapse-level: 1
-    contents:
-      - text: Home
-        file: index.qmd
-      - section: Reference
-        contents:
-          - text: handwriterApp
-            file: man/handwriterApp.qmd
-          - text: templateK40
-            file: man/templateK40.qmd
-      - text: News
-        file: NEWS.md
-      - text: License
-        file: LICENSE.md
-      - text: Citation
-        file: CITATION.md
 format:
   html:
     theme: csafe.scss
