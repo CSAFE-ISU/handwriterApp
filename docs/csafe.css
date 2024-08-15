@@ -1,5 +1,5 @@
+/* Get Montserrat font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 
 /* Define global colors. To use: 'var(--blue)' */
 :root {
@@ -13,18 +13,17 @@
   
 }
 
-
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 36px;
+  font-weight: 100;
+  font-size: 40px;
   color: var(--purple);
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
-  font-size: 26px;
+  font-weight: 700;
+  font-size: 22px;
   color: var(--purple);
 }
 
@@ -45,17 +44,18 @@ html, body {
   height: 100%;
 }
 
-.navbar-nav {
-  overflow: hidden;
-  height: 70px;
-  align-items: flex-end;
-}
-
 /* Increase the navbar logo size */
 .navbar-brand img {
     max-height: 50px; /* Increase the max width as needed */
     width: auto;     /* Maintain aspect ratio */
     vertical-align: middle;
+}
+
+/* General settings for navbar */
+.navbar-nav {
+  overflow: hidden;
+  height: 70px;
+  align-items: flex-end; /* aligns navigation links to bottom */
 }
 
 /* Change the text color of the navbar tabs */
@@ -69,7 +69,7 @@ html, body {
   color: var(--dkgrey);
 }
 
-/* Change color of all links */
+/* Change default links color */
 a {
     color: var(--orange);
 }

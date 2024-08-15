@@ -8,6 +8,12 @@ website:
     left:
       - text: Home
         file: index.qmd
+      - text: About
+        file: about.qmd
+      - text: Contact
+        file: contact.qmd
+      - text: News
+        file: NEWS.md
       - text: License
         file: LICENSE.md
     right:

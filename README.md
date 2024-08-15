@@ -1,4 +1,4 @@
-# handwriter
+# Welcome
 
 
 Handwriter is designed to assist forensic examiners by analyzing

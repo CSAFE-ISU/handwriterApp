@@ -1,0 +1,19 @@
+---
+title: Contact
+format: 
+  html:
+    css: csafe.css
+---
+
+
+
+### Center for Statistics and Applications in Forensic Evidence
+195 Durham Center
+
+613 Morrill Road
+
+Ames, Iowa 50011
+
+\(515\) 294-7278
+
+<a href="csafe@iastate.edu">csafe@iastate.edu</a>
