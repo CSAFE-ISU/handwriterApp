@@ -2,7 +2,7 @@ project:
   type: website
 website:
   navbar:
-    background: primary
+    background: white
     logo: CSAFE_Tools_handwriter.png
     search: true
     left:
