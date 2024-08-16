@@ -10,7 +10,6 @@
   --pink: #E31C79;
   --orange: #F68D2E;
   --gold: #F1BE48;
-  
 }
 
 h1 {
@@ -67,6 +66,25 @@ html, body {
 .navbar-nav .nav-link.active {
   font-weight: 500;
   color: var(--dkgrey);
+}
+
+.sidebar nav[role=doc-toc] ul>li>a, 
+.sidebar nav[role=doc-toc] ul>li>ul>li>a, 
+.sidebar nav[role=doc-toc] ul>li>ul>li>ul>li>a {
+  color: var(--ltgrey) !important;
+}
+
+.sidebar nav[role=doc-toc] ul>li>a:hover, 
+.sidebar nav[role=doc-toc] ul>li>ul>li>a:hover, 
+.sidebar nav[role=doc-toc] ul>li>ul>li>ul>li>a:hover{
+  color: var(--dkgrey) !important;
+}
+
+.sidebar nav[role=doc-toc] ul>li>a.active, 
+.sidebar nav[role=doc-toc] ul>li>ul>li>a.active, 
+.sidebar nav[role=doc-toc] ul>li>ul>li>ul>li>a.active{
+  color: var(--ltgrey) !important;
+  border-left-color: var(--ltgrey);
 }
 
 /* Change default links color */
