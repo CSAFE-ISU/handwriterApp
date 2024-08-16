@@ -15,7 +15,7 @@ website:
 
 format:
   html:
-    css: bootstrap.css
+    css: csafe.css
     toc: true
     toc-depth: 2
     toc-location: left
