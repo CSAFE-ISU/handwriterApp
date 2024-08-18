@@ -18,7 +18,7 @@ Handwriting Database. Go to
 
 ## Simulate Casework with Example Documents
 
-### INSTALLATION
+### Installation
 
 Handwriter requires R, RStudio IDE, and JAGS.
 
@@ -27,7 +27,7 @@ Handwriter requires R, RStudio IDE, and JAGS.
 -   Install JAGS from
     [SourceForge](https://sourceforge.net/projects/mcmc-jags/files/)
 
-### LAUNCH THE APP
+### Launch the App
 
 Open RStudio, navigate to the console window, and type:
 
