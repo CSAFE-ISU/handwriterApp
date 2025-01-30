@@ -1,6 +1,6 @@
 Package: handwriterApp
 Title: A 'shiny' Application for Handwriting Analysis
-Version: 2.0.0.9000
+Version: 2.0.1
 Authors@R: 
     c(person("Iowa State University of Science and Technology on behalf of its Center for Statistics and Applications in Forensic Evidence", role = c("aut", "cph", "fnd")),
       person("Stephanie", "Reinders", role = c("aut", "cre"), email = "srein@iastate.edu"))
@@ -16,8 +16,8 @@ Imports:
     bslib,
     dplyr,
     ggplot2,
-    handwriter,
-    handwriterRF,
+    handwriter (>= 3.2.4),
+    handwriterRF (>= 1.1.1),
     magick,
     magrittr,
     rmarkdown,
